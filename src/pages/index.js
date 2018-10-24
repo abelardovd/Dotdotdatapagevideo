@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import ReactPlayer from 'react-player'
 import { FaInstagram, FaFacebookSquare, FaRegEnvelopeOpen, FaTwitterSquare } from 'react-icons/fa'
 import { MdPhone } from 'react-icons/md'
 
@@ -33,6 +34,7 @@ const Content = styled.div`
 
   
 `
+
 
 const Footer = styled.div`
   height: 3rem;
@@ -70,9 +72,12 @@ const IndexPage = () =>
       <HeaderImage src={logo} />
     </Header>
 
+    
+
     <Content>
       <Section Textcenter='We belive in building networks that boost Our clients advertising performance.'/>
-      <Section image={image3}/>
+      <ReactPlayer url='https://youtu.be/bmRS4Q6FC_k'
+      width='100%'/>
       <Section Textcenter='Distribute your online promotions or specials directly to anyones smartphone with bluetooth messaging.' />
       <Section image={image2}  />
       <Section Textcenter='Wanna Buy One?'/> 

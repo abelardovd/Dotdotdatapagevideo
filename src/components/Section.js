@@ -30,12 +30,12 @@ const Text = styled.span`
     -1px 1px 0 #262626,
     1px 1px 0 #262626;
     
-    
 `
 
-const Section = ({ image, textLeft, textRight, flip, imageRight, Textcenter, }) =>
+const Section = ({ image, textLeft, textRight, flip, imageRight, Textcenter,}) =>
 <Wrapper image={image}>
     <Text size={flip ? 0.5 : 1.0} align='center'>{Textcenter}</Text>
+    
     
   </Wrapper>
 
