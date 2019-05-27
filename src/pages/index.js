@@ -68,7 +68,7 @@ const IndexPage = () =>
 
     <Header>
       <HeaderImage src={logo} />
-      <TextHeader>Dot Dot Data</TextHeader>
+      <TextHeader>Dot Dot Data.</TextHeader>
       <HeaderImage src={logo} />
     </Header>
 
